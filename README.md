@@ -20,17 +20,3 @@ This guide contains the software requirements as well as installation process fo
   - CentOS installation
   
   > yum --enablerepo=epel install -y git-lfs && git lfs install
-
-## Build IOST
-
-Run the below commands to clone the go-iost repo from the official IOST github account.
-
-> git clone https://github.com/iost-official/go-iost.git
-> 
-> cd go-iost
-> 
-> git lfs pull
-> 
-> make vmlib_install
-> 
-> make build install
